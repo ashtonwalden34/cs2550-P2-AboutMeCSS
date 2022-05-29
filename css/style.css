@@ -1,0 +1,111 @@
+html {
+    font-family: 'courier';
+}
+
+body {
+    background-image: url(../img/bakcground.jpg);
+    background-repeat: repeat;
+}
+
+#name {
+    text-decoration: darkblue underline;
+    font-size: 30pt;
+    color: darkorange;
+}
+
+label {
+    font-weight: bold;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ol {
+    display: inline-block;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 5vh;
+}
+
+#info-container {
+    text-align: left;
+}
+
+.img {
+    margin-right: 20px;
+    width: 400px;
+    float: right;
+}
+
+#personal-info {
+    vertical-align: top;
+}
+
+
+#book-container {
+    text-align: left;
+    margin-top: 5vh;
+    width: 50vw;
+    padding: 0;
+    vertical-align: text-top;
+}
+
+.book-title {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#poem-container {
+    width: 40vw;
+    padding: 0;
+}
+
+#poem, #poem-title, #poem-ins {
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 80vw;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid black;
+}
+
+th, td {
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    border: 1px lightcoral solid;
+    font-style: bold;
+}
+
+#math {
+    background-color: blue;
+}
+
+#english {
+    background-color: green;
+}
+
+#cs2550 {
+    background-color: yellow;
+}
+
+#cs1400 {
+    background-color: red;
+}
